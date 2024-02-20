@@ -39,7 +39,7 @@ int main() {
 
     p = (int *)realloc(p, count * sizeof(int));
     if (p == NULL && count > 0) {
-        fprintf(stderr, "Falha na realocação de memória para lista de aprovados.\n");
+        fprintf(stderr, "Falha na realocaÃ§Ã£o de memÃ³ria para lista de aprovados.\n");
         free(aluno);
         return 1;
     }
